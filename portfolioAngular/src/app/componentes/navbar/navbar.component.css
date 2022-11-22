@@ -1,0 +1,30 @@
+.bg-brown{
+    background-color: brown;
+    border-style: solid;
+    border-color:#7e7a7e;
+    border-radius: 3ch;
+    margin: .2%;
+    width: 99%;
+    
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+.fa-brands.fa-square-facebook.fa-2x:hover{
+    --bs-text-opacity: 1;
+       color:#3737d8 !important;
+   }
+   
+   .fa-brands.fa-square-instagram.fa-2x:hover{
+       --bs-text-opacity: 1;
+       color:#993187 !important;
+   }
+   
+   .fa-brands.fa-linkedin.fa-2x:hover{
+       --bs-text-opacity: 1;
+       color:#4f5c96 !important;
+   }
+   
