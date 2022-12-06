@@ -1,0 +1,46 @@
+<!-- Inicio Proyectos Modal //CREAR LLER ACTUALIZAR ELIMINAR -->
+<div class="modal fade" id="proyectModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Proyectos Modal</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+               <!-- FORMULARIO -->
+               <form [formGroup]="form" (ngSubmit)="onEnviar($event)">
+                <div class="text-center mb-3 mt-5">
+                    <label for="exampleImagenBanner" class="form-label"> Actualizar proyectos: </label>
+                    <input type="url" formControlName="url" [class.border-danger]="Info" placeholder="Ingrese la informacion">
+                </div>
+                <!-- Gracias al getter que configuramos en el controlador -->
+                <div *ngIf="Info?.errors  && Info?.touched"></div>
+                <button type="submit" class="btn btn-primary m-2">Actualizar</button>
+
+                <div class="text-center mb-3 mt-5">
+                    <label for="exampleImagenBanner" class="form-label"> Eliminar proyecto: </label>
+                    <input type="text" formControlName="text" [class.border-danger]="Info" placeholder="Ingrese la informacion">
+                </div>
+                <!-- Gracias al getter que configuramos en el controlador -->
+                <div *ngIf="Info?.errors  && Info?.touched"></div>
+                <button type="submit" class="btn btn-danger m-2">Eliminar</button>
+
+                <div class="text-center mb-3 mt-5">
+                    <label for="exampleImagenBanner" class="form-label"> Actualizar imagen: </label>
+                    <input type="url" formControlName="url" [class.border-danger]="Info" placeholder="Ingrese la URL">
+                </div>
+                <!-- Gracias al getter que configuramos en el controlador -->
+                <div *ngIf="Info?.errors  && Info?.touched"></div>
+                <button type="submit" class="btn btn-primary m-2">Actualizar</button>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </form>
+            <!--FINAL  FORMULARIO -->
+
+            </div>
+        </div>
+    </div>
+    <!-- Fin Proyectos Modal -->

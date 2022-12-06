@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--HOJA DE ESTILOS-->
+    <link rel="stylesheet" href="/portfolioAngular/src/assets/css/styles.css">
+    <title>Panel</title>
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/08dcbe0ab1.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-brown">
+        <div class="container-fluid">
+            <a class="nvbar brand" href="index.html">
+                <img src="./../../../assets/img/logo.png" alt="Logo_Arg_Programa" class="w-25">
+                <img src="./../../../assets/img/LogosInti.png" alt="Logo_Inti" class="w-25">
+            </a>
+            <div>
+                <app-boton-logout></app-boton-logout>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="row mt-5">
+            <div class="col-1">
+            </div>
+            <div class="col-2 pt-10">
+                <img src="./../../../assets/img/perfilFinal.jpg" alt="fotoPerfil" class="rounded-circle  img-fluid w-75">
+                <h4 class=" text-center intro mt-4">Hola...Soy Leandro</h4>
+                <h4 class=" text-center intro mt-4">Desarrollador FULL STACK JR.</h4>
+                <ul class="list-group mt-5">
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#redesModal"
+                            class="link"><i class="fa-solid fa-people-arrows"></i> Redes</a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#bannerModal"
+                            class="link"><i class="fa-solid fa-images"></i> Banner </a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal"
+                            data-bs-target="#informacionModal" class="link"><i class="fa-solid fa-circle-info"></i>
+                            Informacion </a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#experModal"
+                            class="link"><i class="fa-solid fa-briefcase"></i> Experiencia </a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#estudiosModal"
+                            class="link"><i class="fa-solid fa-graduation-cap"></i> Estudios</a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal"
+                            data-bs-target="#habilidadModal" class="link"><i class="fa-solid fa-thumbs-up"></i>
+                            Habilidades</a></li>
+                    <li class="list-group-item admin"><a href="#" data-bs-toggle="modal" data-bs-target="#proyectModal"
+                            class="link"><i class="fa-solid fa-gear"></i>
+                            Proyectos</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <app-modal-redes></app-modal-redes>
+                <app-modal-banner></app-modal-banner>
+                <app-modal-info></app-modal-info>
+                <app-modal-estudi></app-modal-estudi>
+                <app-modal-exper></app-modal-exper>
+                <app-modal-habil></app-modal-habil>
+                <app-modal-proy></app-modal-proy>
+            </div>
+            <div class="col-1 ">
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+
+    <!--Footer -->
+    <footer class="row bg-brown">
+        <div class="large-12 columns">
+            <div class="row">
+                <div class="large-6 columns">
+                    <div class="box text-center">
+
+                        <h5 class="text-white"> <i class="fa-sharp fa-solid fa-copyright"></i>LeanDelp</h5>
+                        <hr class="text-white">
+                    </div>
+                </div>
+                <div class="large-6 columns text-center">
+                    <div class="box text-white">2022</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>

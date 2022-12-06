@@ -18,12 +18,12 @@
        color:#3737d8 !important;
    }
    
-   .fa-brands.fa-square-instagram.fa-2x:hover{
+.fa-brands.fa-square-github.fa-2x:hover{
        --bs-text-opacity: 1;
-       color:#993187 !important;
+       color:#196f4d !important;
    }
    
-   .fa-brands.fa-linkedin.fa-2x:hover{
+.fa-brands.fa-linkedin.fa-2x:hover{
        --bs-text-opacity: 1;
        color:#4f5c96 !important;
    }

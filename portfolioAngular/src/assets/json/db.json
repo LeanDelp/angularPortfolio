@@ -1,0 +1,136 @@
+{
+    "nombre": "Leandro",
+    "apellido": "Delpino",
+    "edad": 35,
+    "arquitecto": "Arquitecto, recibido en la ciudad de Córdoba, actualmente desarrollando distintas actividades de manera independiente y participando de manera parcial con estudios y profesionales prestando servicio de manera virtual",
+    "desarrollador":"Full Stack developer Jr. Mis prmieros pasos en el desarrollo web desde mediados del año 2022",
+
+
+    "estudios" :[
+
+        {
+            "id":1,
+            "descripcion":"Título universitario",
+            "titulo": "Arquitecto",
+            "institucion": "Universidad Nacional de Córdoba",
+            "localidad" : "Córdoba",
+            "anio": 2016,
+            "imagen" : "../assets/img/titulo.png"
+        },
+
+        {
+            "id":2,
+            "descripcion":"Curso en programación",
+            "titulo": "Introduccion a la programación en NET 6.0",
+            "institucion": "Polo Tecnológico Mina Clavero",
+            "localidad" : "Modlidad virtual",
+            "anio": 2022,
+            "imagen" : "../assets/img/poloMC.png"
+        },
+
+        {
+            "id":3,
+            "descripcion":"Curso en programación",
+            "titulo": "Fundamentos basicos de la programacion",
+            "institucion": "SE Programar Ministerio de Economía y la Cámara Empresarial de Software y Servicios Informáticos (CESSI)",
+            "localidad" : "Modalidad virtual",
+            "anio": 2022,
+            "imagen" : "../assets/img/seprogramar.png"
+        },
+
+        {
+            "id":4,
+            "descripcion":"Curso en programación",
+            "titulo": "Habilidades y herramientas de un programador web full-stack junior",
+            "institucion": "Argentina Programa 4.0. Ministerio de Economía",
+            "localidad" : "Modalidad virtual",
+            "anio": 2022,
+            "imagen" : "../assets/img/yoprogramo.png" 
+        }
+            
+     ],
+
+     "experiencia" :[
+        {
+            "id":1,
+            "descripcion" : "Arquitecto",
+            "imagen" : "../assets/img/exper2.jpg",
+            "trabajo" : "Mayormente cuento con experiencia en colaborción para estudios de Arquitectura en el área de diseño, lgeajo técnico y desarrollo de propuestas tanto en 2D como en 3D, renderizado y presentaciones ante diferentes entidades."
+        }, 
+
+        {
+            "id":2,
+            "descripcion" : "Desarrollador",
+            "imagen" : "../assets/img/logo.png ",
+            "trabajo" : "Full Stack developer Jr. Desarrollo de Portfolio personal mediante la tutoría de Argentina Programa"
+        }
+
+     ],
+
+     "habilidadesduras" :[
+
+        {
+            "id":1,
+            "habilidad": "HTML",
+            "porcentaje" : 70 
+        },
+
+        {
+            "id":2,
+            "habilidad": "CSS",
+            "porcentaje": 60
+        },
+
+        {
+            "id":3,
+            "habilidad": "BOOSTRAP",
+            "porcentaje": 60
+        },
+
+        {
+            "id":4,
+            "habilidad": "JAVASCRIPT",
+            "porcentaje": 50
+        }
+    ],
+
+    "habilidadesblandas" :[
+        {
+            "id":1,
+            "habilidad": "Compromiso/Responsabilidad",
+            "porcentaje": 100
+        },
+
+        {
+            "id":2,
+            "habilidad": "Equipo/Compañerismo",
+            "porcentaje": 100
+        },
+
+        {
+            "id":3,
+            "habilidad": "Liderazgo",
+            "porcentaje": 50
+        }
+    ],
+    "idiomas" :[
+        {
+            "id":1,
+            "habilidad": "Ingles",
+            "porcentaje": 80
+        },
+
+        {
+            "id":2,
+            "habilidad": "Portugues",
+            "porcentaje": 80
+        }
+     ],
+
+     "proyectos": [
+        {
+            "id":1,
+            "descripcion":"Como mi primer proyecto se destaca este Portfolio desarrollado de manera personal, guiado por profes mediante la plataforma y compañeros en las diferentes etapas."
+        }
+     ]
+}

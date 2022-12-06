@@ -1,0 +1,19 @@
+ <!-- seccion de estudios-->
+ <section  class="estudios mt-3 ">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-3 mt-3 " >
+          <img src="./../../../assets/img/imagenUNC.png" alt="fotoExper" class="rounded-circle  img-fluid w-60 ">  
+        </div>
+        <div class="col-9 mt-3 bg-brown2 "> <a href="panel" class="nav-link "><i class="fa-solid fa-pen-to-square"></i></a>
+          <h3 class="mt-3"><em><strong>ESTUDIOS</strong></em></h3><hr>
+          <div *ngFor="let study of estudiosarray">      
+            <h4 class="mt-3"><b>{{study.descripcion}}</b></h4>
+            <h5>{{study.titulo}} - {{study.institucion}} - {{study.localidad}} - {{study.anio}}</h5>
+            <img [src]="study.imagen" class="rounded img-fluid imagenesExper mb-3" alt="seprogram">            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

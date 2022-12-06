@@ -1,0 +1,23 @@
+.bg-brown{
+    background-color: brown;
+    border-style: solid;
+    border-color:#7e7a7e;
+    border-radius: 3ch;
+    margin: .2%;
+    width: 99%;
+    
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: transparent;
+}
+
+
+.login{
+    height: 56vh;
+}
+
+.admin{
+    font-size: 1.5rem;
+}

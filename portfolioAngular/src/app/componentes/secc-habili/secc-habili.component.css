@@ -1,0 +1,17 @@
+.rounded-circle{
+    border-style:dotted;
+    border-color:brown;
+    border-width: .15cm;
+   
+}
+
+
+.bg-brown2{
+    border-style: double;
+    border-color: brown ;
+    border-bottom-right-radius: 3ch;
+    border-top-right-radius: 3ch;
+    font-size: 20px; 
+    background-color: rgb(231, 219, 219);
+}
+

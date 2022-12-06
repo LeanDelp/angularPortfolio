@@ -5,24 +5,14 @@
         <div class="col-3 mt-3">
           <img src="././../../../assets/img/experGral.jpg" alt="fotoExper" class="rounded-circle  img-fluid w-60 ">
         </div>
-        <div class="col-9 mt-3 bg-brown2">
-          <h5 class="mt-3">
-            <p><strong>EXPERIENCIA</strong></p>
-            <hr>
-            <p><strong>Arquitecto...</strong></p>
-            <p>Mayormente cuento con experiencia en colaborción para estudios de Arquitectura en el área de diseño,
-              lgeajo técnico y desarrollo de propuestas tanto en 2D como en 3D, renderizado y presentaciones ante
-              diferentes
-              entidades.
-            </p>
-            <img src="./../../assets/img/exper2.jpg" class="rounded  img-fluid imagenesExper " alt="exper2">
-            <img src="./../../assets/img/exper1.jpg" class="rounded img-fluid imagenesExper " alt="exper1">
-            <img src="./../../assets/img/exper3.jpg" class="rounded img-fluid imagenesExper" alt="exper3">
-            <hr>
-            <p><strong>Full Stack developer Jr</strong></p>
-            <p>Desarrollo de Portfolio personal mediante la tutoría de Argentina Programa</p>
-          </h5>
-        </div>
+        <div class="col-9 mt-3 bg-brown2 "> <a href="panel" class="nav-link "><i class="fa-solid fa-pen-to-square"></i></a>
+            <h3 class="mt-3"><em><strong>EXPERIENCIA</strong></em></h3><hr>
+            <div *ngFor="let exper of experarray">
+              <h4 class="mt-3"><b>{{exper.descripcion}}</b></h4>
+              <h5>{{exper.trabajo}}</h5>
+              <img [src]="exper.imagen" class="rounded img-fluid imagenesExper " alt="exper1">
+            </div>           
+          </div>
       </div>
     </div>
   </section>
